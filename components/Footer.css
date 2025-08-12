@@ -1,0 +1,28 @@
+/* Faz a página ocupar 100% da altura da janela */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container principal que envolve todo o conteúdo */
+  #container {
+    min-height: 100vh; /* 100% da altura da viewport */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Conteúdo principal que vai crescer para preencher */
+  .main-content {
+    flex: 1; /* ocupa o espaço disponível */
+  }
+  
+  /* Footer fixado no final */
+  footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    height: 90px;
+  }
+  
